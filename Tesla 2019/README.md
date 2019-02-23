@@ -23,3 +23,4 @@ $$$$$$$$\ $$$$$$$$\  $$$$$$\  $$\        $$$$$$\
 - Question 3 is a simplified version of image color segmentation. The submissions are evaluated by using Intersection over Union (IoU) score.
 - Question 4 is about histogram equalization. The submissions are evaluated by comparing the difference between the maximum number of pixels for an intensity value to the minimum number of pixels for an intensity value.
 - Question 5 deals with counting the number of faces in a given image using any Computer Vision concept. The submissions are evaluated by checking the absolute deviation from the ground truth value.
+- Scores for each question are converted to the `0-30` scale, where `0` is the lowest possible score for a question and `30` is the highest possible score for a question.
